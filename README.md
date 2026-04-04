@@ -46,19 +46,5 @@ mvn exec:java -Dexec.mainClass="com.example.missions.Main"
 java -jar target/magic-mission-analyzer-1.0.0.jar
 ```
 
-## Данные миссий
 
-В проект добавлены файлы из присланного архива:
-
-- `variant-1/mission-a.txt`
-- `variant-1/mission-a.json`
-- `variant-1/mission-a.xml`
-- `variant-2/mission-b.txt`
-- `variant-2/mission-b.json`
-- `variant-2/mission-b.xml`
-
-## Что важно для защиты
-
-Программа работает с **единой внутренней моделью**, даже если входные форматы отличаются. Это соответствует требованию лабораторной: аналитик открывает любой файл и получает одинаково понятный результат.
-
-Схема модели находится в файле `docs/mission-structure.md`.
+Схема модели находится в файле `mission-structure.md`.
